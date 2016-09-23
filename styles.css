@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-size: 100px;
-  color: blue;
+  color: white;
 }
 .clock {
   width: 50%;
@@ -11,5 +11,9 @@ h1 {
 
 .timer-bar {
   width: 10%;
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px white;
+}
+
+.container {
+  height: 100vh; /* vh...Mady's reminder */
 }
