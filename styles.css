@@ -2,5 +2,14 @@ h1 {
   text-align: center;
   font-size: 100px;
   color: blue;
-  bottom: 1px solid black;
+}
+.clock {
+  width: 50%;
+  margin: 0 auto;
+  text-align: -webkit-center;
+}
+
+.timer-bar {
+  width: 10%;
+  border-bottom: solid 2px black;
 }

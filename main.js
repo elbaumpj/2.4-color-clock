@@ -15,7 +15,13 @@ function displayTime() {
 }
 
 function percentOfMinute() {
-  console.log(currentTime.getSeconds()/60);
+  var minutePercent = (currentTime.getSeconds()/60) * 100;
+  var timerBar = document.querySelector('.timer-bar');
+  timerBar.style.width = minutePercent.toString() + "%" ;
+}
+
+function growLine() {
+  var line = get
 }
 
 window.setInterval(displayTime, 1000);
