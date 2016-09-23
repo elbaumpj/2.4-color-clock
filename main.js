@@ -24,7 +24,6 @@ function percentOfMinute() {
 }
 
 function setHex() {
-  //var hexNumbers = currentTime.getHours() + currentTime.getMinutes() + currentTime.getSeconds();
   var hoursHex = ('0' + currentTime.getHours().toString(16)).slice(-2);
   var minutesHex = ('0' + currentTime.getMinutes().toString(16)).slice(-2);
   var secondsHex = ('0' + currentTime.getSeconds().toString(16)).slice(-2);
@@ -33,12 +32,7 @@ function setHex() {
   container.style.backgroundColor = hexColor;
 }
 
-  clock.addEventListener("mousemove", clockToHex);
-
-  function clockToHex(){
-    window.clearInterval(displayTime);
-    displayHex();
-  }
+  clock.addEventListener("mousemove", displayHex);
 
 
 function displayHex() {
