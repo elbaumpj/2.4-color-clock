@@ -1,1 +1,2 @@
-# 2.4-color-clock
+#2.4-color-clock
+* This assignment was completed at the end of Week 2 at The Iron Yard. As our first JavaScript assignment, the assignment's purpose was to familiarize us with JS syntax and make sure that we could write a series of functions to achieve a series of steps. The project is a "color clock" that shows the time every second and changes the color of the background via a hex color that changes with the time. If you hover over the time, you see the hex color. There is a link to the live project in the repo description. You can also clone the repo to see it work locally. 
